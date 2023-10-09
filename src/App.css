@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-container {
+  width: 60%;
+  min-height: 75vh;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+}
+
+.forcast-1 {
+  width: 70%;
+  background-image: url("./images/city.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forcast-2 {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.47);
+  padding: 20px;
+}
+
+.upper-text {
+  text-align: right;
+  padding: 20px;
+  color: white;
+}
+
+.upper-text h1 {
+  font-size: 35px;
+}
+.upper-text,
+.bottom-text {
+  height: 15vh;
+}
+
+.bottom-text {
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.righ-box h1 {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.weather-info {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 55px;
+  margin: 0;
+}
+
+.search-container {
+  height: 40px;
+  display: flex;
+}
+
+.search-container input {
+  width: 80%;
+  height: 95%;
+  border: none;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.search-container button {
+  width: 20%;
+  border-radius: 0px;
+  border: none;
+  background: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+.search-icon {
+  filter: invert(100%);
+}
+
+.weather-description {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.details-section {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.details-section h3 {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-container {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .forcast-1,
+  .forcast-2 {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+.small-icon {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
