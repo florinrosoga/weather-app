@@ -1,7 +1,7 @@
 # Weather App
 
 ## Overview
-This Weather App is a simple, user-friendly application designed to display the current weather conditions in cities around the world. It's built using HTML, CSS, JavaScript, and React, offering a sleek and responsive user experience. Whether you're planning a trip or just curious about the weather in a different city, this app provides the essential information at your fingertips.
+This Weather App is a simple, user-friendly application designed to display the current weather conditions in cities around the world. It's built using HTML, CSS, JavaScript, and React, offering a simple user experience. Whether you're planning a trip or just curious about the weather in a different city, this app provides the essential information at your fingertips.
 
 ## Features
 - **City Search**: Input any city's name globally to fetch current weather conditions.
