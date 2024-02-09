@@ -14,7 +14,7 @@ This Weather App is a simple, user-friendly application designed to display the 
 ## Dependencies
 - **OpenWeatherMap API**: Fetches real-time weather data from [OpenWeatherMap](https://openweathermap.org/).
 - **React**: Utilizes React framework for a dynamic and interactive UI.
-- **Other Standard Libraries**: Uses standard HTML, CSS, and also JavaScript for structure, styling, and functionality.
+- **Other Standard Libraries**: Uses standard HTML, CSS, and also JavaScript for structure, styling, and for functionality.
 
 ## Build Instructions
 To set up the Weather App locally, follow these simple steps:
