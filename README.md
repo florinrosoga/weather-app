@@ -17,7 +17,7 @@ This Weather App is a simple, user-friendly application designed to display the 
 - **Other Standard Libraries**: Uses standard HTML, CSS, and also JavaScript for structure, styling, and for functionality.
 
 ## Build Instructions
-To set up the Weather App locally, follow these simple steps:
+To set up the Weather App locally, follow these next steps:
 
 1. Clone the repository from GitHub to your local machine.
 2. Navigate to the project directory.
