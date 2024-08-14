@@ -6,9 +6,9 @@ This Weather App is a simple, user-friendly application designed to display the 
 ## Features
 - **City Search**: Input any city's name globally to fetch current weather conditions.
 - **Weather Details**: Displays key weather parameters including:
-  - Temperature
-  - Wind Speed
-  - Humidity
+  - Temperature,
+  - Wind Speed,
+  - Humidity,
   - Visibility
 
 ## Dependencies
